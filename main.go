@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 
 	"github.com/gorilla/mux"
 )
@@ -16,10 +17,9 @@ func main() {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", homeLink)
 
-	if len(process.env.PORT) > 0 {
-		port := process.env.PORT
-	} else {
-		port := ":8080"
+	port, err := os.Getenv("PORT")
+	if err != nil {
+		port = "3000"
 	}
 	log.Fatal(http.ListenAndServe(port, router))
 }
