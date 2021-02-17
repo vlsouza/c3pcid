@@ -17,10 +17,9 @@ func main() {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", homeLink)
 
-	if os.Getenv("PORT") != "" { 
-		port = os.Getenv(“PORT”) 
-	  } else { 
-		port = "8080" 
-	  }
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port),nil, router))
+	port := os.Getenv("PORT")
+	if port == "" {
+		port = "8080"
+	}
+	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%s", port), router))
 }
