@@ -1,7 +1,6 @@
 package main
 
 import (
-	"flag"
 	"fmt"
 	"os"
 	"os/signal"
@@ -10,17 +9,9 @@ import (
 	"github.com/bwmarrin/discordgo"
 )
 
-// Variables used for command line parameters
-var (
-	Token string
-)
-
-func init() {
-	flag.StringVar(&Token, "t", "ODExMDI5OTQyMjAzOTczNjYy.YCsQfg.1WoHeSSnkTj7k-oz_3BzE-64UfI", "Bot Token")
-	flag.Parse()
-}
-
 func main() {
+	Token := os.Getenv("BOT_TOKEN")
+
 	// Create a new Discord session using the provided bot token.
 	dg, err := discordgo.New("Bot " + Token)
 	if err != nil {
