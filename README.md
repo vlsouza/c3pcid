@@ -1,6 +1,5 @@
 # c3pcid - Discord Engagement Bot
 
-![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Golang Version](https://img.shields.io/badge/golang-1.16-green.svg)
 
 ![c3pcid](https://static.wikia.nocookie.net/fantendo/images/d/d8/Raymond_NH_Icon.png/revision/latest?cb=20200501174158)
@@ -60,10 +59,6 @@ Before using **c3pcid**, you will need to set up a few things:
 ## Customization
 
 To customize the information collection and filtering criteria, you can modify the source code in `main.go` according to your specific needs.
-
-## License
-
-This project is distributed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it according to the terms of the license.
 
 ## Contributions
 
