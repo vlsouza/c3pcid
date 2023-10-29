@@ -3,6 +3,8 @@
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Golang Version](https://img.shields.io/badge/golang-1.16-green.svg)
 
+![c3pcid](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ef5ebfb-6e80-43e9-970a-5370301b3278/de5jgee-ab550100-8e1c-4de1-b043-bdbe4f251fb9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNlZjVlYmZiLTZlODAtNDNlOS05NzBhLTUzNzAzMDFiMzI3OFwvZGU1amdlZS1hYjU1MDEwMC04ZTFjLTRkZTEtYjA0My1iZGJlNGYyNTFmYjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.g5Biha_1n1WxTRVtnWg24bt7k2x6l9fFJqZJR5SIopU)
+
 **c3pcid** is a Discord bot developed to foster engagement within Discord servers. It allows for the collection, storage, and customization of channel-specific information, tailored to the server's preferences. This information can be utilized to create interactive and engaging content among server members, such as displaying funny phrases from a streamer during a live stream, on a website, or even in an Alexa skill.
 
 ## Features
